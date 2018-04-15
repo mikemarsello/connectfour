@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.App-header {
+  background-color: #222;
+  height: auto;
+  padding: 20px;
+  color: white;
+}
+.App-title {
+  font-size: 1.5em;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+#board  {
+  display: flex;
+  justify-content: center;
+  border: 6px solid blue;
+  width: 490px;
+  margin: 100px auto;
+}
+.cell {
+  height: 70px;
+  width: 70px;
+  border: 5px solid blue;
+  background: skyblue;
+  box-sizing: border-box;
+  color: transparent;
+}
+.cell > div {
+  background: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.cell > div.red {
+  background: red;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.cell > div.black {
+  background: black;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+#message {
+  position: absolute;
+  width: 100%;
+}
+.victory-board {
+  background: #999999;
+  display: flex;
+}
+.victory-message {
+  color: #222222;
+  font-style: italic;
+  margin: auto;
+  padding: 20px;
+}
+button.play-again {
+  margin: auto;
+}
