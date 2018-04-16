@@ -1,3 +1,17 @@
+run `npm start` to fire up a local server
+
+
+TODO
+
+1. reset button doesn't work
+
+2. need to disable the board after a win is recorded
+
+3. style the four winning cells
+
+
+------------------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
