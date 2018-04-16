@@ -59,8 +59,10 @@
   width: 100%;
 }
 .victory-board {
-  background: #999999;
+  max-width: 490px;
   display: flex;
+  text-transform: capitalize;
+  margin: auto;
 }
 .victory-message {
   color: #222222;

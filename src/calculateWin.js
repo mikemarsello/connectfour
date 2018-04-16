@@ -16,36 +16,17 @@ class Victory extends React.Component {
 }
 
 export const calculateWin = (board) => {
-  let winner = 'red';
-  if (board.turn === 'red') {
-    winner = 'black';
-  }
+  let winner = (board.turn === 'red') ? 'black' : 'red';
   for (let i = 0; i < 7; i++) { // i = column
     for (let j = 0; j < 6; j++) { // j = row
-      if (j < 3) {
-        if (board[i][j] !== undefined && board[i][j] === board[i][j+1] && board[i][j] === board[i][j+2] && board[i][j] === board[i][j+3]) {
-          ReactDOM.render(<Victory winner={winner}/>, document.getElementById('message'));
-          registerServiceWorker();
-        }
-      }
-      if (i < 4) {
-        if (board[i][j] !== undefined && board[i][j] === board[i+1][j] && board[i][j] === board[i+2][j] && board[i][j] === board[i+3][j]) {
-          ReactDOM.render(<Victory winner={winner}/>, document.getElementById('message'));
-          registerServiceWorker();
-        }
-      }
-      if (i < 4 && j < 3) {
-        if (board[i][j] !== undefined && board[i][j] === board[i+1][j+1] && board[i][j] === board[i+2][j+2] && board[i][j] === board[i+3][j+3]) {
-          ReactDOM.render(<Victory winner={winner}/>, document.getElementById('message'));
-          registerServiceWorker();
-        }
-      }
-      if (i > 2 && j < 3) {
-        if (board[i][j] !== undefined && board[i][j] === board[i-1][j+1] && board[i][j] === board[i-2][j+2] && board[i][j] === board[i-3][j+3]) {
-          ReactDOM.render(<Victory winner={winner}/>, document.getElementById('message'));
-          registerServiceWorker();
-        }
+      if ((j < 3 && board[i][j] !== undefined && board[i][j] === board[i][j+1] && board[i][j] === board[i][j+2] && board[i][j] === board[i][j+3]) ||
+          (i < 4 && board[i][j] !== undefined && board[i][j] === board[i+1][j] && board[i][j] === board[i+2][j] && board[i][j] === board[i+3][j]) ||
+          (i < 4 && j < 3 && board[i][j] !== undefined && board[i][j] === board[i+1][j+1] && board[i][j] === board[i+2][j+2] && board[i][j] === board[i+3][j+3]) ||
+          (i > 2 && j < 3 && board[i][j] !== undefined && board[i][j] === board[i-1][j+1] && board[i][j] === board[i-2][j+2] && board[i][j] === board[i-3][j+3])) {
+        ReactDOM.render(<Victory winner={winner}/>, document.getElementById('message'));
+        registerServiceWorker();
       }
     }
   }
 }
+    
