@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  font-family: Helvetica;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.App-header {
+  background-color: #222;
+  height: auto;
+  padding: 20px;
+  color: white;
+  font-family: helvetica;
+  text-align: center;
+}
+.App-title {
+  font-size: 1.5em;
+}
+body {
+  margin: 0;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.square {
+  height: 70px;
+  width: 70px;
+  border: 5px solid blue;
+  background: skyblue;
+  box-sizing: border-box;
+}
+.square > div {
+  background: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.square > div.red {
+  background: red;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.square > div.black {
+  background: black;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+#board  {
+  display: flex;
+  justify-content: center;
+  border: 6px solid blue;
+  width: 490px;
+  margin: 50px auto;
+}
+.message-board {
+  max-width: 490px;
+  display: flex;
+  margin: auto;
+  padding-top: 30px;
+}
+.message {
+  color: #222222;
+  font-family: helvetica;
+  font-style: italic;
+  float: left;
+  margin: 5px;
+}
+button.play-again {
+  margin-left: auto;
+  font-size: 16px;
+  color: white;
+}
