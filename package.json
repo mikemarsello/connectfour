@@ -2,11 +2,11 @@
   "name": "newc4",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://michaelmarsello.com/connectfour/build",
+  "homepage": "http://michaelmarsello.com/connectfour/build",
   "dependencies": {
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-scripts": "2.1.8"
   },
   "scripts": {
     "start": "react-scripts start",
