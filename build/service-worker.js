@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/connectfour/build/precache-manifest.1b0b51323578ead1cff5f6e2f16c7aea.js"
+  "/mikemarsello/connectfour/precache-manifest.40e9b23dfb7ed011bf8ebd9ea9e1fe50.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/connectfour/build/index.html", {
+workbox.routing.registerNavigationRoute("/mikemarsello/connectfour/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
