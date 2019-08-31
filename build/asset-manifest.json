@@ -1,14 +1,14 @@
 {
-  "main.css": "/mikemarsello/connectfour/static/css/main.b72fc8ba.chunk.css",
-  "main.js": "/mikemarsello/connectfour/static/js/main.a6819891.chunk.js",
-  "main.js.map": "/mikemarsello/connectfour/static/js/main.a6819891.chunk.js.map",
+  "main.css": "/mikemarsello/connectfour/static/css/main.d3841957.chunk.css",
+  "main.js": "/mikemarsello/connectfour/static/js/main.bb1fea75.chunk.js",
+  "main.js.map": "/mikemarsello/connectfour/static/js/main.bb1fea75.chunk.js.map",
   "runtime~main.js": "/mikemarsello/connectfour/static/js/runtime~main.327186e5.js",
   "runtime~main.js.map": "/mikemarsello/connectfour/static/js/runtime~main.327186e5.js.map",
-  "static/js/2.dca4fbf7.chunk.js": "/mikemarsello/connectfour/static/js/2.dca4fbf7.chunk.js",
-  "static/js/2.dca4fbf7.chunk.js.map": "/mikemarsello/connectfour/static/js/2.dca4fbf7.chunk.js.map",
+  "static/js/2.49c7a296.chunk.js": "/mikemarsello/connectfour/static/js/2.49c7a296.chunk.js",
+  "static/js/2.49c7a296.chunk.js.map": "/mikemarsello/connectfour/static/js/2.49c7a296.chunk.js.map",
   "index.html": "/mikemarsello/connectfour/index.html",
-  "precache-manifest.40e9b23dfb7ed011bf8ebd9ea9e1fe50.js": "/mikemarsello/connectfour/precache-manifest.40e9b23dfb7ed011bf8ebd9ea9e1fe50.js",
+  "precache-manifest.7b2085de85b6bf98dd7f0abfc6dd804e.js": "/mikemarsello/connectfour/precache-manifest.7b2085de85b6bf98dd7f0abfc6dd804e.js",
   "service-worker.js": "/mikemarsello/connectfour/service-worker.js",
-  "static/css/main.b72fc8ba.chunk.css.map": "/mikemarsello/connectfour/static/css/main.b72fc8ba.chunk.css.map",
+  "static/css/main.d3841957.chunk.css.map": "/mikemarsello/connectfour/static/css/main.d3841957.chunk.css.map",
   "static/media/logo.svg": "/mikemarsello/connectfour/static/media/logo.5d5d9eef.svg"
 }
