@@ -1,14 +1,14 @@
 {
-  "main.css": "/connectfour/static/css/main.d3841957.chunk.css",
-  "main.js": "/connectfour/static/js/main.bb1fea75.chunk.js",
-  "main.js.map": "/connectfour/static/js/main.bb1fea75.chunk.js.map",
-  "runtime~main.js": "/connectfour/static/js/runtime~main.be566994.js",
-  "runtime~main.js.map": "/connectfour/static/js/runtime~main.be566994.js.map",
-  "static/js/2.49c7a296.chunk.js": "/connectfour/static/js/2.49c7a296.chunk.js",
-  "static/js/2.49c7a296.chunk.js.map": "/connectfour/static/js/2.49c7a296.chunk.js.map",
-  "index.html": "/connectfour/index.html",
-  "precache-manifest.6256368b5f542ce7372e4034bc0c0c68.js": "/connectfour/precache-manifest.6256368b5f542ce7372e4034bc0c0c68.js",
-  "service-worker.js": "/connectfour/service-worker.js",
-  "static/css/main.d3841957.chunk.css.map": "/connectfour/static/css/main.d3841957.chunk.css.map",
-  "static/media/logo.svg": "/connectfour/static/media/logo.5d5d9eef.svg"
+  "main.css": "/connectfour/build/static/css/main.d3841957.chunk.css",
+  "main.js": "/connectfour/build/static/js/main.bb1fea75.chunk.js",
+  "main.js.map": "/connectfour/build/static/js/main.bb1fea75.chunk.js.map",
+  "runtime~main.js": "/connectfour/build/static/js/runtime~main.4e212f9f.js",
+  "runtime~main.js.map": "/connectfour/build/static/js/runtime~main.4e212f9f.js.map",
+  "static/js/2.49c7a296.chunk.js": "/connectfour/build/static/js/2.49c7a296.chunk.js",
+  "static/js/2.49c7a296.chunk.js.map": "/connectfour/build/static/js/2.49c7a296.chunk.js.map",
+  "index.html": "/connectfour/build/index.html",
+  "precache-manifest.b55e5cba88ef31a7dc9dad6897336d23.js": "/connectfour/build/precache-manifest.b55e5cba88ef31a7dc9dad6897336d23.js",
+  "service-worker.js": "/connectfour/build/service-worker.js",
+  "static/css/main.d3841957.chunk.css.map": "/connectfour/build/static/css/main.d3841957.chunk.css.map",
+  "static/media/logo.svg": "/connectfour/build/static/media/logo.5d5d9eef.svg"
 }
